@@ -2,37 +2,47 @@
 
 ## Heiyeluren Black-Video-Make ##
 
+<pre>
 Heiyeluren Video Make
 
 author: heiyeluren
 date: 2023/5/14
 site: github.com/heiyeluren
+</pre>
 
-description:
+
 
 BlackVideoMake 是一个视频制作工具，可以只是自己输入简单的文字文本内容，然后自动生成一个视频。
 
 本代码是一个整个调用视频生成的完整示例。
 
 
+
 ## 程序效果
 
-https://github.com/heiyeluren/black-video-make/raw/main/output/final.mp4
+#### 以下是使用本程序生成的视频：
+视频下载地址：https://github.com/heiyeluren/black-video-make/raw/main/output/final.mp4
 
-<iframe src="https://github.com/heiyeluren/black-video-make/raw/main/output/final.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+视频直接播放：
+
+https://github.com/heiyeluren/black-video-make/assets/157670/cd839de9-fe9b-4bb6-ad24-5098801fe4e8
 
 
 ## 程序概要介绍 ##
 
-Black-Video-Make 是一个视频制作工具，可以只是自己输入简单的文字文本内容，然后自动生成一个视频。
-能够方便快速的帮助我们完全无依赖，不需要进行复杂剪辑制作过程，直接通过简单输入文本内容和相应视频背景，就可以生成图片。
 
-其他重要说明：
+Black-Video-Make 是一个视频制作工具，可以只是自己输入简单的文字文本内容，然后自动生成一个视频。
+能够方便快速的帮助我们完全无依赖，不需要进行复杂剪辑制作过程，直接通过简单输入文本内容和相应视频背景，就可以生成最终视频。
+
+
+#### 其他重要说明：
 目前程序除了基本的Python版本和pip安装包，另外主要需要依赖的就是微软Azure的免费账号以及ffmpeg程序即可；
 目前本程序在 Windows 10/11 上面运行稳定，Linux环境需要自行测试。
 
 
 ## 依赖环境说明 ##
+
+<pre>
 
 1. 第三方账号：
 必须注册好微软的云服务azure，然后创建好免费账号，然后创建好对应的区域服务，记录下对应的key和区域信息，填写到下面的配置中。
@@ -77,6 +87,8 @@ vlc (可选)：      sudo apt install vlc / sudo yum install vlc / sudo pacman -
 4. Python版本
 必须使用 Python 3.7+ 版本，建议使用 Python 3.10+ 版本
 
+</pre>
+
 
 ## 程序使用 ##
 
@@ -90,7 +102,9 @@ python video-make.py
 ## 程序工作流程 ##
 
 
-生成视频工作流程：
+#### 生成视频工作流程：
+
+<pre>
 
 第一步：准备好基础素材，主要包括视频背景图、视频显示内容文字、视频每个部分内容语音文本
 写好自己需要生成的文字文本内容，保存为txt文件，放在raw_input目录下，比如：input/voice_01.txt，主要文本内容包括：
@@ -131,5 +145,7 @@ voice_text_XX.txt：视频中语音内容的文本内容
 
 第六步：合并视频和语音字幕，生成最终视频
 这个步骤主要是把字幕文件和视频文件进行合并，生成最终的视频
+
+</pre>
 
 
