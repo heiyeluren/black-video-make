@@ -149,3 +149,12 @@ voice_text_XX.txt：视频中语音内容的文本内容
 </pre>
 
 
+## Black-Video-Make 技术交流 ##
+
+Black-Video-Make 目前是V1版本，欢迎大家使用，当然也少不了一些问题和 bug，欢迎大家一起共创，或者直接提交 PR 等等。
+
+如果有技术问题想要咨询作者，或者是想要加入技术讨论，欢迎扫描如下二维码联系作者：<br />
+（如无法看到图片，请直接微信里搜索公众号 “黑夜路人技术”，关注发送 “加群” 字样信息即可 ）
+
+<img src=https://raw.githubusercontent.com/heiyeluren/xmm/main/docs/img/heiyeluren-tech-wx-public.jpg width=40% />
+
