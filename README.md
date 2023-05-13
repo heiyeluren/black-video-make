@@ -15,6 +15,11 @@ BlackVideoMake 是一个视频制作工具，可以只是自己输入简单的�
 本代码是一个整个调用视频生成的完整示例。
 
 
+## 程序效果
+
+https://github.com/heiyeluren/black-video-make/raw/main/output/final.mp4
+
+
 ## 程序概要介绍 ##
 
 Black-Video-Make 是一个视频制作工具，可以只是自己输入简单的文字文本内容，然后自动生成一个视频。
