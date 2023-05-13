@@ -10,7 +10,7 @@ site: github.com/heiyeluren
 
 description:
 
-VideoMake 是一个视频制作工具，可以只是自己输入简单的文字文本内容，然后自动生成一个视频。
+BlackVideoMake 是一个视频制作工具，可以只是自己输入简单的文字文本内容，然后自动生成一个视频。
 
 本代码是一个整个调用视频生成的完整示例。
 
