@@ -1,6 +1,3 @@
-# black-video-make
-BlackVideoMake 是一个自动视频生成工具，可以只是自己输入简单的文字内容，然后自动生成一个想要的视频，完全不需要任何额外操作。
-
 
 
 ## Heiyeluren Black-Video-Make ##
@@ -13,7 +10,9 @@ site: github.com/heiyeluren
 
 description:
 
-BlackVideoMake 是一个自动视频生成工具，可以只是自己输入简单的文字内容，然后自动生成一个想要的视频，完全不需要任何额外操作。
+VideoMake 是一个视频制作工具，可以只是自己输入简单的文字文本内容，然后自动生成一个视频。
+
+本代码是一个整个调用视频生成的完整示例。
 
 
 ## 程序概要介绍 ##
@@ -78,7 +77,7 @@ vlc (可选)：      sudo apt install vlc / sudo yum install vlc / sudo pacman -
 
 python video-make.py
 
-video-make.py 代码是一个整个调用视频生成的完整示例。
+
 
 
 ## 程序工作流程 ##
@@ -125,6 +124,5 @@ voice_text_XX.txt：视频中语音内容的文本内容
 
 第六步：合并视频和语音字幕，生成最终视频
 这个步骤主要是把字幕文件和视频文件进行合并，生成最终的视频
-
 
 

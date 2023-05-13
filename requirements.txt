@@ -1,0 +1,5 @@
+--index https://mirrors.aliyun.com/pypi/simple
+azure-cognitiveservices-speech
+pydub
+pyttsx
+Pillow
