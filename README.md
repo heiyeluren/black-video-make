@@ -19,6 +19,8 @@ BlackVideoMake 是一个视频制作工具，可以只是自己输入简单的�
 
 https://github.com/heiyeluren/black-video-make/raw/main/output/final.mp4
 
+<iframe src="https://github.com/heiyeluren/black-video-make/raw/main/output/final.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 
 ## 程序概要介绍 ##
 
